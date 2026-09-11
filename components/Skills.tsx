@@ -4,21 +4,21 @@ import { skillGroups, primarySkills } from "@/data/skills";
 
 export default function Skills() {
   return (
-    <section id="skills" className="py-28 border-t border-neutral-800/50">
+    <section id="skills" className="py-12 sm:py-16 lg:py-20 border-t border-neutral-800/50">
       <div className="max-w-7xl mx-auto px-6 sm:px-8">
         <p className="font-mono text-sm text-sky-500 hover:text-sky-300 tracking-widest uppercase mb-3 transition-colors">
           Skills
         </p>
-        <h2 className="text-4xl font-bold text-neutral-100 mb-4">
+        <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-neutral-100 mb-4">
           Technical skills
         </h2>
-        <p className="text-neutral-400 text-base mb-10 max-w-xl">
+        <p className="text-neutral-400 text-sm sm:text-base mb-6 sm:mb-8 max-w-xl">
           Every technology below is used in at least one project, certification, or current work
           responsibility.
         </p>
 
         {/* Primary skills highlight */}
-        <div className="mb-8">
+        <div className="mb-6">
           <p className="text-sm font-mono text-neutral-400 mb-3 uppercase tracking-wider">
             Primary focus
           </p>
@@ -35,7 +35,7 @@ export default function Skills() {
         </div>
 
         {/* All groups */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
           {skillGroups.map((group) => (
             <div
               key={group.category}

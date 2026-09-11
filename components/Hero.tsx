@@ -29,9 +29,9 @@ export default function Hero() {
         <div className="absolute bottom-1/4 right-1/4 w-64 h-64 bg-cyan-500/4 rounded-full blur-3xl" />
       </div>
 
-      <div className="relative max-w-7xl mx-auto px-6 sm:px-8 w-full py-28 grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+      <div className="relative max-w-7xl mx-auto px-6 sm:px-8 w-full py-12 sm:py-16 lg:py-20 grid grid-cols-1 lg:grid-cols-2 gap-12 sm:gap-20 items-center">
         {/* Left — Text */}
-        <div className="space-y-10">
+        <div className="space-y-8 sm:space-y-10">
           {/* Status pill */}
           <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-emerald-500/30 bg-emerald-500/5 text-sm font-mono text-emerald-400">
             <Circle size={6} className="fill-emerald-400 text-emerald-400 animate-pulse" aria-hidden="true" />
@@ -46,13 +46,13 @@ export default function Hero() {
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-neutral-100 leading-[1.1]">
               {profile.name}
             </h1>
-            <h2 className="text-3xl sm:text-4xl font-semibold text-sky-400">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-sky-400">
               {profile.title}
             </h2>
           </div>
 
           {/* Tagline */}
-          <p className="text-neutral-400 text-lg leading-relaxed max-w-lg">
+          <p className="text-neutral-400 text-base sm:text-lg leading-relaxed max-w-lg">
             {profile.tagline}
           </p>
 

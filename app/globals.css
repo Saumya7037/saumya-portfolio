@@ -8,6 +8,7 @@
 
 html {
   scroll-behavior: smooth;
+  font-size: clamp(15px, 1vw + 13px, 18px);
 }
 
 @layer base {

@@ -60,11 +60,11 @@ export default function ExpenseTrackerPage() {
           <p className="font-mono text-xs text-sky-500 uppercase tracking-widest mb-3">
             Project · 02
           </p>
-          <h1 className="text-3xl sm:text-4xl font-bold text-neutral-100 mb-4 leading-tight">
+          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-neutral-100 mb-4 leading-tight">
             End-to-End DevOps Automation —<br />
             Expense Tracker
           </h1>
-          <p className="text-neutral-400 text-lg leading-relaxed mb-6 max-w-2xl">
+          <p className="text-neutral-400 text-base sm:text-lg leading-relaxed mb-6 max-w-2xl">
             Containerised application deployed through GitHub Actions and GitOps using Docker,
             Kubernetes, and Argo CD.
           </p>

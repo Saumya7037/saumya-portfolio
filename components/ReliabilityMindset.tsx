@@ -37,19 +37,19 @@ const mindsetItems = [
 
 export default function ReliabilityMindset() {
   return (
-    <section id="reliability" className="py-28 border-t border-neutral-800/50">
+    <section id="reliability" className="py-12 sm:py-16 lg:py-20 border-t border-neutral-800/50">
       <div className="max-w-7xl mx-auto px-6 sm:px-8">
         <p className="font-mono text-sm text-sky-500 hover:text-sky-300 tracking-widest uppercase mb-3 transition-colors">
           Reliability Mindset
         </p>
-        <h2 className="text-4xl font-bold text-neutral-100 mb-4">
+        <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-neutral-100 mb-4">
           How I think about systems
         </h2>
-        <p className="text-neutral-400 text-base mb-12 max-w-2xl">
+        <p className="text-neutral-400 text-sm sm:text-base mb-8 sm:mb-10 max-w-2xl">
           Daily production troubleshooting at FarEye has shaped how I approach infrastructure and reliability work — systematic investigation, proactive detection, and repeatable solutions.
         </p>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
           {mindsetItems.map((item) => {
             const Icon = item.icon;
             return (

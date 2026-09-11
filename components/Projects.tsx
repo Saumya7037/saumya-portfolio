@@ -28,19 +28,19 @@ function ArchitecturePreview({ flow }: { flow: string[] }) {
 
 export default function Projects() {
   return (
-    <section id="projects" className="py-28 border-t border-neutral-800/50">
+    <section id="projects" className="py-12 sm:py-16 lg:py-20 border-t border-neutral-800/50">
       <div className="max-w-7xl mx-auto px-6 sm:px-8">
         <p className="font-mono text-sm text-sky-500 hover:text-sky-300 tracking-widest uppercase mb-3 transition-colors">
           Projects
         </p>
-        <h2 className="text-4xl font-bold text-neutral-100 mb-4">
+        <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-neutral-100 mb-4">
           Engineering projects
         </h2>
-        <p className="text-neutral-400 text-base mb-12 max-w-xl">
+        <p className="text-neutral-400 text-base mb-8 sm:mb-10 max-w-xl">
           Hands-on cloud infrastructure and DevOps projects with full code, architecture, and deployment documentation.
         </p>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8">
           {projects.map((project) => (
             <article
               key={project.id}
@@ -61,7 +61,7 @@ export default function Projects() {
                 )}
               </div>
 
-              <h3 className="text-lg font-semibold text-neutral-100 group-hover:text-sky-200 mb-3 leading-snug transition-colors">
+              <h3 className="text-base sm:text-lg font-semibold text-neutral-100 group-hover:text-sky-200 mb-3 leading-snug transition-colors">
                 {project.title}
               </h3>
 

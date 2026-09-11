@@ -5,12 +5,12 @@ import { experience } from "@/data/certifications";
 
 export default function Experience() {
   return (
-    <section id="experience" className="py-28 border-t border-neutral-800/50">
+    <section id="experience" className="py-12 sm:py-16 lg:py-20 border-t border-neutral-800/50">
       <div className="max-w-7xl mx-auto px-6 sm:px-8">
         <p className="font-mono text-sm text-sky-500 hover:text-sky-300 tracking-widest uppercase mb-3 transition-colors">
           Experience
         </p>
-        <h2 className="text-4xl font-bold text-neutral-100 mb-12">
+        <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-neutral-100 mb-6 sm:mb-8">
           Professional experience
         </h2>
 
@@ -21,7 +21,7 @@ export default function Experience() {
             aria-hidden="true"
           />
 
-          <div className="space-y-10">
+          <div className="space-y-6 sm:space-y-8">
             {experience.map((job) => (
               <article
                 key={`${job.title}-${job.period}`}

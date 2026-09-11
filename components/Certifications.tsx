@@ -9,16 +9,16 @@ import {
 
 export default function Certifications() {
   return (
-    <section id="certifications" className="py-28 border-t border-neutral-800/50">
+    <section id="certifications" className="py-12 sm:py-16 lg:py-20 border-t border-neutral-800/50">
       <div className="max-w-7xl mx-auto px-6 sm:px-8">
         <p className="font-mono text-sm text-sky-500 hover:text-sky-300 tracking-widest uppercase mb-3 transition-colors">
           Certifications & Education
         </p>
-        <h2 className="text-4xl font-bold text-neutral-100 mb-12">
+        <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-neutral-100 mb-6 sm:mb-8">
           Credentials
         </h2>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Official certification — featured */}
           <div className="lg:col-span-1">
             <h3 className="text-sm font-mono text-neutral-400 hover:text-sky-400 uppercase tracking-wider mb-4 transition-colors">

@@ -32,16 +32,16 @@ const focusAreas = [
 
 export default function About() {
   return (
-    <section id="about" className="py-28 border-t border-neutral-800/50">
+    <section id="about" className="py-12 sm:py-16 lg:py-20 border-t border-neutral-800/50">
       <div className="max-w-7xl mx-auto px-6 sm:px-8">
         {/* Section label */}
         <p className="font-mono text-sm text-sky-500 hover:text-sky-300 tracking-widest uppercase mb-3 transition-colors">
           About
         </p>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-20">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 mb-10 sm:mb-14">
           <div>
-            <h2 className="text-4xl font-bold text-neutral-100 mb-6">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-neutral-100 mb-6">
               Production-aware engineering,
               <br />
               <span className="text-sky-400">cloud-focused career.</span>
@@ -57,7 +57,7 @@ export default function About() {
 
           {/* Highlights */}
           <div className="flex flex-col justify-center">
-            <div className="grid grid-cols-2 gap-6">
+            <div className="grid grid-cols-2 gap-4 sm:gap-6">
               {profile.highlights.map((h) => (
                 <div
                   key={h.label}
@@ -77,10 +77,10 @@ export default function About() {
 
         {/* Engineering focus cards */}
         <div>
-          <h3 className="text-lg font-semibold text-neutral-200 mb-6">
+          <h3 className="text-base sm:text-lg font-semibold text-neutral-200 mb-6">
             What I build
           </h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
             {focusAreas.map((area) => {
               const Icon = area.icon;
               return (

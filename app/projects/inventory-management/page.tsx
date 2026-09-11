@@ -61,11 +61,11 @@ export default function InventoryManagementPage() {
           <p className="font-mono text-xs text-sky-500 uppercase tracking-widest mb-3">
             Featured Project · 01
           </p>
-          <h1 className="text-3xl sm:text-4xl font-bold text-neutral-100 mb-4 leading-tight">
+          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-neutral-100 mb-4 leading-tight">
             AWS Cloud Infrastructure &amp; DevOps —<br />
             Inventory Management
           </h1>
-          <p className="text-neutral-400 text-lg leading-relaxed mb-6 max-w-2xl">
+          <p className="text-neutral-400 text-base sm:text-lg leading-relaxed mb-6 max-w-2xl">
             Terraform-provisioned AWS infrastructure for a containerised inventory management
             application, with automated EC2 setup, Docker deployment, networking, and
             CloudWatch monitoring.

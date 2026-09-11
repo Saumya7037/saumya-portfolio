@@ -6,16 +6,16 @@ import { profile } from "@/data/profile";
 
 export default function Contact() {
   return (
-    <section id="contact" className="py-28 border-t border-neutral-800/50">
+    <section id="contact" className="py-12 sm:py-16 lg:py-20 border-t border-neutral-800/50">
       <div className="max-w-7xl mx-auto px-6 sm:px-8">
         <div className="max-w-2xl">
           <p className="font-mono text-sm text-sky-500 hover:text-sky-300 tracking-widest uppercase mb-3 transition-colors">
             Contact
           </p>
-          <h2 className="text-4xl font-bold text-neutral-100 mb-4">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-neutral-100 mb-4">
             Let&#39;s connect.
           </h2>
-          <p className="text-neutral-300 text-base mb-10 leading-relaxed">
+          <p className="text-neutral-300 text-sm sm:text-base mb-6 sm:mb-8 leading-relaxed">
             Interested in Cloud, DevOps, SRE, or infrastructure engineering
             opportunities? Feel free to connect.
           </p>
