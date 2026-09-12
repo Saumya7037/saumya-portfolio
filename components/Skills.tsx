@@ -48,11 +48,10 @@ export default function Skills() {
                 {group.skills.map((skill) => (
                   <span
                     key={skill}
-                    className={`px-2 py-1 text-sm rounded border transition-all hover:scale-110 ${
-                      group.primary
-                        ? "bg-neutral-800 text-neutral-300 border-neutral-700 hover:bg-sky-500/15 hover:text-sky-200 hover:border-sky-400"
-                        : "bg-neutral-900 text-neutral-400 border-neutral-800 hover:bg-sky-500/10 hover:text-sky-300 hover:border-sky-400"
-                    }`}
+                    className={`px-2 py-1 text-sm rounded border transition-all hover:scale-110 ${group.primary
+                        ? "bg-sky-500/20 text-sky-200 border-sky-500/40 hover:bg-rose-500/15 hover:text-rose-200 hover:border-rose-400"
+                        : "bg-sky-500/10 text-sky-300 border-sky-500/25 hover:bg-rose-500/15 hover:text-rose-200 hover:border-rose-400"
+                      }`}
                   >
                     {skill}
                   </span>

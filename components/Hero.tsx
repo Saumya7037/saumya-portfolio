@@ -104,23 +104,22 @@ export default function Hero() {
         </div>
 
         {/* Right — Infrastructure flow diagram */}
-        <div className="hidden lg:flex justify-center" aria-hidden="true">
-          <div className="relative w-56">
+        <div className="hidden lg:flex justify-end pr-4 xl:pr-12" aria-hidden="true">
+          <div className="relative w-72 sm:w-80">
             <div className="absolute inset-0 bg-sky-500/3 rounded-2xl border border-sky-500/10" />
-            <div className="relative p-6 space-y-0">
-              <p className="font-mono text-sm text-neutral-400 mb-6 text-center tracking-widest uppercase">
+            <div className="relative p-8 space-y-0">
+              <p className="font-mono text-sm text-neutral-400 mb-8 text-center tracking-widest uppercase">
                 CI/CD Flow
               </p>
               {flowNodes.map((node, i) => (
                 <div key={node} className="flex flex-col items-center">
                   <div
-                    className={`w-full px-3 py-2.5 rounded text-center text-sm font-mono font-medium border transition-all hover:scale-[1.03] hover:shadow-[0_4px_16px_rgba(56,189,248,0.15)] ${
-                      i === 0
+                    className={`w-full px-5 py-3.5 rounded-lg text-center text-[15px] font-mono font-medium border transition-all hover:scale-[1.03] hover:shadow-[0_4px_16px_rgba(56,189,248,0.15)] ${i === 0
                         ? "border-sky-500/50 text-sky-400 bg-sky-500/10 hover:border-sky-400/70 hover:text-sky-300"
                         : i === flowNodes.length - 1
-                        ? "border-emerald-500/50 text-emerald-400 bg-emerald-500/10 hover:border-emerald-400/70 hover:text-emerald-300"
-                        : "border-neutral-700 text-neutral-400 bg-neutral-900/60 hover:border-sky-500/40 hover:text-sky-300"
-                    }`}
+                          ? "border-emerald-500/50 text-emerald-400 bg-emerald-500/10 hover:border-emerald-400/70 hover:text-emerald-300"
+                          : "border-neutral-700 text-neutral-400 bg-neutral-900/60 hover:border-sky-500/40 hover:text-sky-300"
+                      }`}
                   >
                     {node}
                   </div>

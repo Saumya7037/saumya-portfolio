@@ -1,9 +1,9 @@
 export const profile = {
   name: "Saumya Kumar",
-  title: "Cloud & SRE",
-  tagline: "Building reliable cloud infrastructure, automated deployments, and operationally sound systems.",
+  title: "Cloud & Site Reliability Engineer",
+  tagline: "Bridging Operations and Infrastructure – Building reliable cloud environments and automating deployments.",
   summary:
-    "Technical Support Engineer with hands-on experience in production troubleshooting, incident investigation, Linux, APIs, SQL, AWS, Terraform, Docker, Kubernetes, and CI/CD — focused on building reliable and automated cloud infrastructure.",
+    "Technical Support Engineer with a strong foundation in production troubleshooting, incident resolution, and distributed systems. Passionate about transitioning into a Cloud & Site Reliability Engineering (SRE) role. I leverage my experience in Linux, APIs, SQL, AWS, and DevOps tools (Terraform, Docker, Kubernetes, CI/CD) to build robust, scalable, and operationally sound cloud infrastructures.",
   location: "Noida, India",
   email: "saumyakumar7037@gmail.com",
   linkedin: "https://linkedin.com/in/saumyakumar7037",

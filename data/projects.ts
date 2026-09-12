@@ -22,12 +22,12 @@ export const projects: Project[] = [
     title: "AWS Cloud Infrastructure & DevOps — Inventory Management",
     shortTitle: "Inventory Management on AWS",
     description:
-      "Terraform-provisioned AWS infrastructure for a containerized inventory management application, with automated EC2 setup, Docker deployment, networking, and CloudWatch monitoring.",
+      "Containerized inventory application deployed on AWS using Terraform. Features automated EC2 provisioning, secure VPC networking, and a seamless CI/CD pipeline via GitHub Actions.",
     longDescription:
       "A production-style deployment of an inventory management application on AWS. Infrastructure is fully defined as code using Terraform — covering VPC, subnets, security groups, EC2, IAM roles, and CloudWatch alarms. The application runs in Docker containers on EC2, with GitHub Actions driving automated CI/CD on every push.",
     technologies: ["AWS", "Terraform", "EC2", "VPC", "IAM", "Docker", "PostgreSQL", "CloudWatch", "GitHub Actions"],
     github: "https://github.com/Saumya7037/inventory-management-devops",
-    featured: true,
+    featured: false,
     architectureFlow: [
       "GitHub",
       "GitHub Actions",
@@ -64,7 +64,7 @@ export const projects: Project[] = [
     title: "End-to-End DevOps Automation — Expense Tracker",
     shortTitle: "Expense Tracker DevOps Pipeline",
     description:
-      "Containerized application deployed through GitHub Actions and GitOps using Docker, Kubernetes, and Argo CD.",
+      "End-to-end DevOps pipeline for a cloud-native expense tracker. Automates Docker image builds via GitHub Actions and manages Kubernetes cluster state autonomously with Argo CD (GitOps).",
     longDescription:
       "A complete DevOps pipeline for an expense tracker application — from source code to Kubernetes. GitHub Actions builds and publishes Docker images to Docker Hub on every commit. Argo CD watches the Kubernetes manifests repository and automatically synchronises the cluster state, providing GitOps-based continuous delivery with self-healing and drift detection.",
     technologies: ["Docker", "Kubernetes", "GitHub Actions", "Docker Hub", "Argo CD", "PostgreSQL", "Linux", "Minikube"],
